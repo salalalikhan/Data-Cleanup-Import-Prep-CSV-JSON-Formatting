@@ -1,0 +1,122 @@
+{
+  "data_processing": {
+    "batch_size": 1000,
+    "max_errors_per_batch": 50,
+    "error_threshold_percentage": 5.0,
+    "enable_parallel_processing": true,
+    "max_workers": 4
+  },
+  
+  "validation": {
+    "strict_mode": false,
+    "email_validation": {
+      "enabled": true,
+      "allow_personal_domains": true,
+      "business_domains_preferred": true
+    },
+    "phone_validation": {
+      "enabled": true,
+      "country_code": "US",
+      "formats": ["(XXX) XXX-XXXX", "XXX-XXX-XXXX", "+1XXXXXXXXXX"]
+    },
+    "currency_validation": {
+      "enabled": true,
+      "default_currency": "USD",
+      "supported_currencies": ["USD", "EUR", "GBP", "CAD"],
+      "precision": 2
+    }
+  },
+  
+  "data_security": {
+    "enable_pii_detection": true,
+    "protection_level": "medium",
+    "masking_strategies": {
+      "email": "partial",
+      "phone": "partial", 
+      "ssn": "hash",
+      "credit_card": "tokenize",
+      "name": "pseudonym"
+    },
+    "audit_logging": {
+      "enabled": true,
+      "include_data_samples": false,
+      "retention_days": 90
+    }
+  },
+  
+  "error_handling": {
+    "max_retries": 3,
+    "backoff_multiplier": 2.0,
+    "enable_circuit_breaker": true,
+    "circuit_breaker_threshold": 5,
+    "enable_quarantine": true,
+    "auto_escalation": true
+  },
+  
+  "output_formats": {
+    "csv": {
+      "enabled": true,
+      "encoding": "utf-8",
+      "delimiter": ",",
+      "quote_character": "\"",
+      "include_headers": true
+    },
+    "json": {
+      "enabled": true,
+      "pretty_print": true,
+      "encoding": "utf-8"
+    },
+    "excel": {
+      "enabled": true,
+      "include_charts": true,
+      "include_pivot_tables": true,
+      "sheet_names": {
+        "main_data": "Cleaned Data",
+        "quality_issues": "Data Quality Issues",
+        "field_mappings": "Field Mappings",
+        "analytics": "Analytics Dashboard"
+      }
+    }
+  },
+  
+  "performance": {
+    "enable_monitoring": true,
+    "log_performance_metrics": true,
+    "memory_limit_mb": 2048,
+    "processing_timeout_seconds": 1800
+  },
+  
+  "transformation_rules": {
+    "date_formats": {
+      "input_formats": [
+        "%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y", "%Y/%m/%d",
+        "%m-%d-%Y", "%d-%m-%Y", "%b %d %Y", "%d %b %Y", 
+        "%B %d %Y", "%d %B %Y", "%Y年%m月%d日",
+        "%B %dst %Y", "%B %dnd %Y", "%B %drd %Y", "%B %dth %Y"
+      ],
+      "output_format": "%Y-%m-%d",
+      "handle_invalid": "set_null"
+    },
+    "currency_processing": {
+      "convert_to_cents": true,
+      "remove_currency_symbols": true,
+      "handle_negative_parentheses": true,
+      "scientific_notation_support": true
+    },
+    "text_normalization": {
+      "trim_whitespace": true,
+      "remove_extra_spaces": true,
+      "standardize_case": false,
+      "remove_special_characters": false
+    }
+  },
+  
+  "reporting": {
+    "generate_html_report": true,
+    "include_data_visualizations": true,
+    "executive_summary": true,
+    "detailed_error_analysis": true,
+    "performance_metrics": true,
+    "compliance_report": true
+  }
+}

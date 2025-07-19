@@ -1,0 +1,10 @@
+legacy_field,target_field,transformation,data_type,example
+rec_id,record_id,"Extract digits, validate uniqueness",integer,A1003 → 1003
+clientFullName,client_name,"Trim whitespace, normalize spaces",string,  John  O'Neil  → John O'Neil
+unit,unit_number,"Uppercase, remove special chars",string,#4B → 4B
+moveIn,move_in_date,Parse multiple formats to ISO 8601,date,03/15/24 → 2024-03-15
+isActive,active_status,Convert to binary 1/0,boolean,"Yes → 1, False → 0"
+balance,balance_cents,Parse currency to integer cents,integer,"$1,200.50 → 120050"
+email,email,Validate and normalize,string,Jane.Smith@EMAIL.com → jane.smith@email.com
+phone,phone,Extract digits only,string,(555) 123-4567 → 5551234567
+company_id,company_id,Standardize to COMP### format,string,001 → COMP001

@@ -1,0 +1,10 @@
+field_name,type,required,validation_rules,description,example
+record_id,integer,yes,"must be positive integer; reject non-numeric prefixes",Unique integer identifier for each client record,1001
+client_name,string,yes,"trim whitespace; min 2 chars; max 100 chars; UTF-8 safe",Full name of the client with proper formatting,Jane Smith
+unit_number,string,no,"standardize format to alphanumeric only; remove special chars",Standardized unit designation without special characters,4B
+move_in_date,date,no,"ISO 8601 format (YYYY-MM-DD); validate date ranges",Move-in date in standard ISO format,2024-03-14
+active_status,boolean,no,"convert Y/Yes/True/1/Active to 1; N/No/False/0/Inactive to 0",Binary flag indicating if client is currently active,1
+balance_cents,integer,no,"convert currency to integer cents; handle negatives; default 0",Account balance stored as integer cents for precision,120050
+email,string,no,"validate email format; normalize case",Client email address for communications,jane.smith@email.com
+phone,string,no,"normalize to digits only; validate length",Client phone number in standardized format,5551234567
+company_id,string,no,"standardize to COMP### format; validate pattern",Company identifier following standard pattern,COMP001

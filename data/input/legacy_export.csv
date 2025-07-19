@@ -1,0 +1,501 @@
+rec_id,clientFullName,unit,moveIn,isActive,balance,notes,email,phone,company_id
+1067,Lisa Anderson,8A,2024-03-15,Y,"$1,390.84",Record 67 - currency with commas,user67@example.com,5552435480,COMP067
+1200,,45A,2024-03-15,Y,$915.00,Record 200 - empty name,user200@example.com,5557645788,COMP200
+1218,Ahmed Hassan,42C,3/3/2024,Inactive,$1289.20,Clean record 218,user218@company47.com,5553461244,COMP218
+1158,   ,33A,2024-03-15,Y,$1264.00,Record 158 - whitespace only,user158@example.com,5558848231,COMP158
+1391,Maria Garcia,47C,25/9/2024,Active,$2828.58,Clean record 391,user391@company26.com,5554272818,COMP391
+1120,Fatima Al-Zahra,???,2024-03-15,Y,$624.00,Record 120 - invalid unit,user120@example.com,5555821246,COMP120
+1014,Priya Sharma,11A,2024-02-30,Y,$2879.00,Record 14 - invalid day,user14@example.com,5556505417,COMP014
+1320,Diego Martinez,40C,2024-04-24,Active,$1652.85,Clean record 320,user320@company20.com,5551166984,COMP320
+1362,Robert Brown,32B,2024-03-19,0,$4980.02,Clean record 362,user362@company8.com,5553623491,COMP362
+1486,Robert Brown,16C,7/27/2024,Inactive,$1472.69,Clean record 486,user486@company44.com,5553777023,COMP486
+1314,Carlos Rodriguez,50A,2/28/2024,N,$1090.82,Clean record 314,user314@company18.com,5553170320,COMP314
+1170,Emma Thompson,36A,2024-03-15,Y,$2299.00,Record 170 - no padding,user170@example.com,5557919843,COMP69
+1400,Ahmed Hassan,21C,20/7/2024,Yes,$4259.73,Clean record 400,user400@company28.com,5559580753,COMP400
+1208,David Chen,44C,2024-03-12,0,$4275.36,Clean record 208,user208@company39.com,5556443518,COMP208
+1343,James Wilson,15A,6/16/2024,No,$4678.70,Clean record 343,user343@company32.com,5556340190,COMP343
+1377,Sarah Johnson,5,12/4/2024,Y,$4427.74,Clean record 377,user377@company39.com,5557380381,COMP377
+1312,Sarah Johnson,37A,2024-09-11,No,$4354.26,Clean record 312,user312@company9.com,5559888112,COMP312
+1099,Elena Petrov,50A,2024-03-15,Y,€358.49,Record 99 - euro currency,user99@example.com,5558446788,COMP099
+1299,Elena Petrov,47B,28/3/2024,Y,$2301.75,Clean record 299,user299@company48.com,5552566171,COMP299
+1074,Yuki Tanaka,32A,2024-03-15,Y,,Record 74 - missing balance,user74@example.com,5552046144,COMP074
+1207,Carlos Rodriguez,33B,2/1/2024,Active,$958.64,Clean record 207,user207@company11.com,5553607127,COMP207
+1387,Mohammad Ali,2A,4/23/2024,No,$4171.22,Clean record 387,user387@company32.com,5552509232,COMP387
+1329,James Wilson,18A,2/24/2024,Active,$1595.68,Clean record 329,user329@company49.com,5554283924,COMP329
+1459,James Wilson,25B,10/17/2024,Active,$4297.08,Clean record 459,user459@company21.com,5559425293,COMP459
+1266,Kevin O'Brien,33A,11/8/2024,Inactive,$1296.71,Clean record 266,user266@company1.com,5559182924,COMP266
+1328,Anna Kowalski,44C,2024-10-23,0,$2805.94,Clean record 328,user328@company15.com,5555671602,COMP328
+1075,Carlos Rodriguez,29A,2024-03-15,Y,€1891.67,Record 75 - euro currency,user75@example.com,5556357928,COMP075
+1370,Sofia Andersson,26B,26/1/2024,1,$4765.73,Clean record 370,user370@company26.com,5559522394,COMP370
+1479,Sofia Andersson,24A,17/6/2024,Inactive,$3583.94,Clean record 479,user479@company3.com,5552964578,COMP479
+1042,Kevin O'Brien,19A,2024-03-15,Y,,Record 42 - missing balance,user42@example.com,5551357226,COMP042
+1442,James Wilson,45C,21/11/2024,1,$2817.09,Clean record 442,user442@company47.com,5555392570,COMP442
+1116,Maria Garcia,42A,2024-03-15,Y,$1758.00,Record 116 - missing username,@domain.com,5557423744,COMP116
+1032,   ,22A,2024-03-15,Y,$922.00,Record 32 - whitespace only,user32@example.com,5559224476,COMP032
+1271,Kevin O'Brien,42A,2024-08-14,Y,$2000.88,Clean record 271,user271@company22.com,5555790256,COMP271
+1298,Elena Petrov,5B,2024-10-09,1,$1213.68,Clean record 298,user298@company39.com,5558272226,COMP298
+1102,Carlos Rodriguez,35A,2024-03-15,TRUE,$1926.00,Record 102 - caps boolean,user102@example.com,5551378260,COMP102
+1093,Fatima Al-Zahra,2A,2024-03-15,Y,$882.00,Record 93 - missing @ symbol,user93domain.com,5554004980,COMP093
+1269,Anna Kowalski,24C,9/4/2024,No,$1210.74,Clean record 269,user269@company50.com,5551841034,COMP269
+1443,Fatima Al-Zahra,15,6/12/2024,1,$2142.52,Clean record 443,user443@company9.com,5559798925,COMP443
+1137,James Wilson,15A,2024-03-15,Y,$1296.00,Record 137 - missing phone,user137@example.com,,COMP137
+1017,Mr.   Robert Brown   Jr.,9A,2024-03-15,Y,$1935.00,Record 17 - extra spaces,user17@example.com,5555810117,COMP017
+1290,Emma Thompson,24A,2024-06-11,1,$1506.50,Clean record 290,user290@company9.com,5556339944,COMP290
+1353,Lisa Anderson,23B,6/18/2024,False,$2594.42,Clean record 353,user353@company1.com,5559578242,COMP353
+1201,Priya Sharma,40B,7/11/2024,False,$4500.08,Clean record 201,user201@company21.com,5551666465,COMP201
+1453,Michael Taylor,26,7/3/2024,Y,$782.28,Clean record 453,user453@company45.com,5553420772,COMP453
+1421,John Smith,5A,2024-11-23,Inactive,$915.59,Clean record 421,user421@company1.com,5551115770,COMP421
+1483,James Wilson,2A,6/16/2024,False,$2618.10,Clean record 483,user483@company22.com,5558546730,COMP483
+1191,Carlos Rodriguez,36A,2024-03-15,Y,$591.00,Record 191 - missing username,@domain.com,5551411780,COMP191
+1437,James Wilson,19B,3/24/2024,N,$4799.72,Clean record 437,user437@company44.com,5553991801,COMP437
+1215,Priya Sharma,38,10/21/2024,Y,$1735.23,Clean record 215,user215@company30.com,5558227906,COMP215
+1053,David Chen,45A,2024-03-15,Y,$593.00,Record 53 - too short,user53@example.com,123,COMP053
+1366,Kevin O'Brien,4B,1/8/2024,0,$3679.73,Clean record 366,user366@company21.com,5552652019,COMP366
+1372,Emma Thompson,35,5/22/2024,False,$2168.73,Clean record 372,user372@company5.com,5552409758,COMP372
+1449,Mohammad Ali,30B,12/10/2024,1,$1985.72,Clean record 449,user449@company20.com,5558161228,COMP449
+1140,Emma Thompson,33A,2024-03-15,Y,$1151.00,Record 140 - space separated,user140@example.com,669 543 7056,COMP140
+1258,Robert Brown,23,10/17/2024,No,$2758.81,Clean record 258,user258@company4.com,5557888825,COMP258
+1431,Sofia Andersson,27,1/20/2024,Y,$3301.55,Clean record 431,user431@company10.com,5554073561,COMP431
+1278,Priya Sharma,22B,3/2/2024,Y,$1726.05,Clean record 278,user278@company4.com,5554934957,COMP278
+1248,Mohammad Ali,19C,24/11/2024,True,$913.45,Clean record 248,user248@company14.com,5557521744,COMP248
+1448,Anna Kowalski,37B,2024-09-13,Y,$2073.89,Clean record 448,user448@company26.com,5552043809,COMP448
+1094,Robert Brown,33A,2024-03-15,Y,"$4,790.29",Record 94 - currency with commas,user94@example.com,5553336357,COMP094
+1455,Lisa Anderson,25B,6/7/2024,Active,$4691.79,Clean record 455,user455@company15.com,5553841752,COMP455
+1195,Maria Garcia,12A,2024-03-15,0,$1305.00,Record 195 - numeric boolean,user195@example.com,5551949503,COMP195
+1111,   ,37A,2024-03-15,Y,$1108.00,Record 111 - whitespace only,user111@example.com,5556280977,COMP111
+1481,Lisa Anderson,20B,2024-06-02,No,$3101.68,Clean record 481,user481@company35.com,5551593794,COMP481
+1281,Sofia Andersson,17B,10/5/2024,N,$2154.23,Clean record 281,user281@company43.com,5556312754,COMP281
+1321,Fatima Al-Zahra,23A,8/14/2024,Active,$1316.92,Clean record 321,user321@company42.com,5552555415,COMP321
+1496,David Chen,26C,2024-06-16,Yes,$3734.27,Clean record 496,user496@company26.com,5558272249,COMP496
+1395,Carlos Rodriguez,39B,2/26/2024,Yes,$4359.24,Clean record 395,user395@company15.com,5557638722,COMP395
+1127,Mohammad Ali,13A,2024-03-15,,$1546.00,Record 127 - missing boolean,user127@example.com,5551157008,COMP127
+1285,Sofia Andersson,8,1/7/2024,1,$4067.99,Clean record 285,user285@company50.com,5557512845,COMP285
+1034,Sarah Johnson,45A,2024-03-15,Y,$2995.00,Record 34 - incomplete email,user34@,5555058736,COMP034
+1037,Michael Taylor,16A,2024-03-15,Y,$1290.00,Record 37 - missing @ symbol,user37domain.com,5552363441,COMP037
+1243,Michael Taylor,21B,7/14/2024,0,$4767.28,Clean record 243,user243@company8.com,5559511658,COMP243
+1061,Sarah Johnson,46A,2024-03-15,yes,$2750.00,Record 61 - text boolean,user61@example.com,5555878149,COMP061
+1485,Diego Martinez,15C,2024-06-23,True,$2981.46,Clean record 485,user485@company2.com,5558310103,COMP485
+1382,Carlos Rodriguez,8C,13/2/2024,0,$4269.34,Clean record 382,user382@company15.com,5557866462,COMP382
+1365,John Smith,5A,2024-06-11,0,$2888.26,Clean record 365,user365@company41.com,5556104488,COMP365
+1196,Maria Garcia,31A,2024-13-01,Y,$2956.00,Record 196 - invalid month,user196@example.com,5551022184,COMP196
+1315,Diego Martinez,17A,4/8/2024,True,$578.80,Clean record 315,user315@company26.com,5552507289,COMP315
+1467,Elena Petrov,49C,2024-03-07,False,$4572.79,Clean record 467,user467@company3.com,5553752066,COMP467
+1073,Fatima Al-Zahra,30A,2024-03-15,Y,"$3,781.86",Record 73 - currency with commas,user73@example.com,5559890280,COMP073
+1476,Mohammad Ali,49A,2/8/2024,Active,$970.24,Clean record 476,user476@company41.com,5557719416,COMP476
+,James Wilson,47A,2024-03-15,Y,$746.00,Record 103 - missing ID,user103@example.com,5555797502,COMP103
+1295,James Wilson,10C,2024-10-25,False,$3098.19,Clean record 295,user295@company16.com,5551691843,COMP295
+1424,Yuki Tanaka,16,2024-06-21,True,$2220.54,Clean record 424,user424@company49.com,5551924860,COMP424
+1080,James Wilson,50A,2024-03-15,Y,$785.00,Record 80 - dot separated,user80@example.com,928.412.4912,COMP080
+1461,Robert Brown,15,8/4/2024,No,$3155.67,Clean record 461,user461@company13.com,5559945668,COMP461
+1048,Mr.   Yuki Tanaka   Jr.,13A,2024-03-15,Y,$2074.00,Record 48 - extra spaces,user48@example.com,5552240551,COMP048
+1119,Ahmed Hassan,38A,2024-03-15,Y,$999.00,Record 119 - missing @ symbol,user119domain.com,5559999374,COMP119
+1113,Ahmed Hassan,42A,2024-03-15,Y,$1909.00,Record 113 - caps email,USER113@DOMAIN.COM,5558599920,COMP113
+1175,John Smith,20A,2024-03-15,yes,$1244.00,Record 175 - text boolean,user175@example.com,5556740154,COMP175
+1007,Robert Brown,29A,2024-03-15,Y,£1198.97,Record 7 - pound currency,user7@example.com,5554945870,COMP007
+1078,David Chen,25A,2024-03-15,Y,$1692.00,Record 78 - no domain,invalid.email,5556417739,COMP078
+1250,Anna Kowalski,22,21/10/2024,Y,$2898.71,Clean record 250,user250@company46.com,5552428159,COMP250
+1229,Maria Garcia,37B,2024-02-21,N,$4117.28,Clean record 229,user229@company1.com,5551249637,COMP229
+1009,Diego Martinez,8A,2024-03-15,Y,$421.82,Record 9 - currency with commas,user9@example.com,5556779712,COMP009
+1154,Fatima Al-Zahra,1A,7-8-2024,Y,$2871.00,Record 154 - day-month-year,user154@example.com,5559878567,COMP154
+1352,Anna Kowalski,9,2024-01-01,True,$1259.51,Clean record 352,user352@company50.com,5559694787,COMP352
+1291,James Wilson,43A,2024-08-23,False,$4545.91,Clean record 291,user291@company13.com,5552562556,COMP291
+1444,Diego Martinez,44C,24/9/2024,No,$4750.13,Clean record 444,user444@company30.com,5551382111,COMP444
+1427,Robert Brown,47C,27/8/2024,0,$4482.87,Clean record 427,user427@company30.com,5552027147,COMP427
+1345,Carlos Rodriguez,22B,17/4/2024,False,$544.47,Clean record 345,user345@company20.com,5557217004,COMP345
+1186,Emma Thompson,25A,2024-03-15,Y,$727.00,Record 186 - dot separated,user186@example.com,356.807.8763,COMP186
+1091,Emma Thompson,17A,2024-03-15,Y,$1465.00,Record 91 - space separated,user91@example.com,553 624 1983,COMP091
+1153,Maria Garcia,44A,2024-03-15,Y,488.718,Record 153 - 3 decimal places,user153@example.com,5558293694,COMP153
+1058,Anna Kowalski,14A,2024-03-15,Y,€422.87,Record 58 - euro currency,user58@example.com,5556699231,COMP058
+1115,Ahmed Hassan,8A,2024-03-15,Y,$1600.00,Record 115 - missing @ symbol,user115domain.com,5556521199,COMP115
+1263,James Wilson,30B,2024-11-07,No,$2217.46,Clean record 263,user263@company21.com,5554293705,COMP263
+1194,Maria Garcia,7A,2024-03-15,Y,$2007.00,Record 194 - missing phone,user194@example.com,,COMP194
+1390,James Wilson,43,21/1/2024,1,$2646.94,Clean record 390,user390@company48.com,5556372185,COMP390
+1030,  David Chen  ,1A,2024-03-15,Y,$1574.00,Record 30 - whitespace padding,user30@example.com,5554501860,COMP030
+1394,James Wilson,12C,2024-02-23,N,$643.66,Clean record 394,user394@company26.com,5554820484,COMP394
+1491,Lisa Anderson,4A,4/1/2024,1,$2058.69,Clean record 491,user491@company18.com,5554573749,COMP491
+1419,Sarah Johnson,40,28/1/2024,Active,$851.78,Clean record 419,user419@company32.com,5558727434,COMP419
+1046,Emma Thompson,33A,2024-03-15,Y,£1267.29,Record 46 - pound currency,user46@example.com,5559148998,COMP046
+1051,Sofia Andersson,29A,2024-03-15,Y,$2319.00,Record 51 - text phone,user51@example.com,not-a-phone,COMP051
+1176,  Kevin O'Brien  ,46A,2024-03-15,Y,$888.00,Record 176 - whitespace padding,user176@example.com,5557979534,COMP176
+1237,Diego Martinez,26,14/2/2024,Inactive,$4316.55,Clean record 237,user237@company26.com,5551886731,COMP237
+1130,Diego Martinez,50A,,Y,$1418.00,Record 130 - missing date,user130@example.com,5554876032,COMP130
+1489,Diego Martinez,19B,4/21/2024,1,$4741.16,Clean record 489,user489@company27.com,5553958206,COMP489
+1466,Fatima Al-Zahra,13,26/3/2024,Active,$679.95,Clean record 466,user466@company17.com,5551224743,COMP466
+1470,Yuki Tanaka,40,7/19/2024,Inactive,$1212.22,Clean record 470,user470@company29.com,5551027853,COMP470
+1152,Fatima Al-Zahra,50A,2024-03-15,Y,$2622.00,Record 152 - invalid company_id,user152@example.com,5551675198,???
+1307,Ahmed Hassan,44A,2/13/2024,No,$4875.56,Clean record 307,user307@company15.com,5556770687,COMP307
+1379,John Smith,24C,9/12/2024,Inactive,$3431.24,Clean record 379,user379@company39.com,5556487312,COMP379
+1156,Priya Sharma,24A,25-5-2024,Y,$742.00,Record 156 - day-month-year,user156@example.com,5554536912,COMP156
+1302,Emma Thompson,48C,2024-02-27,Yes,$2873.54,Clean record 302,user302@company14.com,5554752808,COMP302
+1325,David Chen,34A,2024-05-14,Active,$3582.48,Clean record 325,user325@company6.com,5552305469,COMP325
+1411,John Smith,44,8/25/2024,N,$2445.17,Clean record 411,user411@company32.com,5559074091,COMP411
+125A,Anna Kowalski,50A,2024-03-15,Y,$2065.00,Record 125 - non-numeric suffix,user125@example.com,5554237346,COMP125
+1288,Sarah Johnson,30B,2024-08-22,Active,$3298.46,Clean record 288,user288@company18.com,5558130164,COMP288
+USER-162-OLD,David Chen,49A,2024-03-15,Y,$1666.00,Record 162 - complex ID format,user162@example.com,5551052015,COMP162
+1255,Ahmed Hassan,35B,2024-06-28,True,$1702.49,Clean record 255,user255@company19.com,5557908127,COMP255
+1129,Diego Martinez,1A,2024-03-15,Y,(305.00),Record 129 - negative in parentheses,user129@example.com,5553597364,COMP129
+1177,"Michael Taylor,,",4A,2024-03-15,Y,$1119.00,Record 177 - multiple commas,user177@example.com,5555817921,COMP177
+15A,Kevin O'Brien,9A,2024-03-15,Y,$2015.00,Record 15 - non-numeric suffix,user15@example.com,5553874603,COMP015
+1031,Kevin O'Brien,10A,2024-03-15,Y,$1977.00,Record 31 - no padding,user31@example.com,5555024718,COMP29
+1478,John Smith,34B,2024-08-24,False,$2601.27,Clean record 478,user478@company31.com,5559290605,COMP478
+1412,Diego Martinez,27,2024-12-02,1,$3502.45,Clean record 412,user412@company19.com,5557011184,COMP412
+1016,Kevin O'Brien,37A,2024-03-15,Y,£1502.43,Record 16 - pound currency,user16@example.com,5554884518,COMP016
+1244,Yuki Tanaka,49B,2024-01-28,1,$700.95,Clean record 244,user244@company34.com,5557377756,COMP244
+1169,Robert Brown,50A,2024-03-15,Y,,Record 169 - missing balance,user169@example.com,5559955316,COMP169
+1150,   ,1A,2024-03-15,Y,$1505.00,Record 150 - whitespace only,user150@example.com,5551178369,COMP150
+1253,Lisa Anderson,14,2024-12-04,N,$4770.05,Clean record 253,user253@company12.com,5555359601,COMP253
+1482,Michael Taylor,16A,23/4/2024,1,$4380.35,Clean record 482,user482@company17.com,5558426079,COMP482
+1367,John Smith,41C,2/20/2024,Y,$1223.45,Clean record 367,user367@company47.com,5551121058,COMP367
+1254,Anna Kowalski,16C,9/17/2024,1,$2211.47,Clean record 254,user254@company48.com,5555969464,COMP254
+1318,Lisa Anderson,21,2024-01-26,No,$4097.50,Clean record 318,user318@company16.com,5556303823,COMP318
+1397,Maria Garcia,27B,2024-11-15,N,$3646.58,Clean record 397,user397@company33.com,5552339899,COMP397
+1044,David Chen,48A,2024-03-15,Y,(799.00),Record 44 - negative in parentheses,user44@example.com,5556215894,COMP044
+1283,Michael Taylor,10A,8/1/2024,Y,$2755.20,Clean record 283,user283@company33.com,5558519631,COMP283
+1209,Priya Sharma,3B,6/13/2024,False,$3636.05,Clean record 209,user209@company46.com,5555397192,COMP209
+1008,James Wilson,50A,2024-03-15,TRUE,$2415.00,Record 8 - caps boolean,user8@example.com,5555821704,COMP008
+1133,John Smith,42A,2024-03-15,Y,N/A,Record 133 - text balance,user133@example.com,5559266244,COMP133
+1143,Lisa Anderson,13A,2024-03-15,Y,€123.14,Record 143 - euro currency,user143@example.com,5554094020,COMP143
+1210,Yuki Tanaka,40B,2024-10-06,Active,$3333.19,Clean record 210,user210@company49.com,5559928420,COMP210
+1358,Anna Kowalski,13,3/8/2024,1,$4215.25,Clean record 358,user358@company44.com,5555779259,COMP358
+1071,Sofia Andersson,41A,2024-03-15,Y,$539.00,Record 71 - missing username,@domain.com,5551099348,COMP071
+1136,Mr.   Robert Brown   Jr.,3A,2024-03-15,Y,$2485.00,Record 136 - extra spaces,user136@example.com,5558570924,COMP136
+1040,John Smith,,2024-03-15,Y,$1651.00,Record 40 - empty unit,user40@example.com,5556489093,COMP040
+1018,Robert Brown,31A,2024-03-15,TRUE,$2896.00,Record 18 - caps boolean,user18@example.com,5556147966,COMP018
+1232,Lisa Anderson,34A,28/11/2024,No,$4740.75,Clean record 232,user232@company12.com,5557812088,COMP232
+1211,Lisa Anderson,38,2024-03-24,1,$2285.67,Clean record 211,user211@company41.com,5551642797,COMP211
+1495,Kevin O'Brien,40,2/11/2024,1,$4609.49,Clean record 495,user495@company24.com,5551668067,COMP495
+1090,Lisa Anderson,32A,2024-03-15,Y,$765.00,Record 90 - too short,user90@example.com,123,COMP090
+1141,,37A,2024-03-15,Y,$1584.00,Record 141 - empty name,user141@example.com,5553087199,COMP141
+1410,Maria Garcia,19C,22/10/2024,N,$4178.68,Clean record 410,user410@company49.com,5559905418,COMP410
+1289,Sarah Johnson,40C,19/11/2024,Y,$4895.93,Clean record 289,user289@company47.com,5556807391,COMP289
+1383,Fatima Al-Zahra,22B,2024-08-15,1,$2554.69,Clean record 383,user383@company50.com,5555363519,COMP383
+1225,Yuki Tanaka,24A,2024-07-22,Yes,$1406.74,Clean record 225,user225@company6.com,5553037807,COMP225
+1438,Sarah Johnson,16A,2024-08-10,True,$1634.11,Clean record 438,user438@company1.com,5557111287,COMP438
+1423,Robert Brown,17,4/24/2024,Y,$2150.18,Clean record 423,user423@company27.com,5559777235,COMP423
+1110,Mohammad Ali,8A,2024-03-15,Y,$2947.00,Record 110 - no domain,invalid.email,5558442736,COMP110
+1267,Lisa Anderson,24B,4/19/2024,Y,$1602.68,Clean record 267,user267@company17.com,5551114501,COMP267
+1313,Ahmed Hassan,28C,2024-09-24,N,$1005.10,Clean record 313,user313@company45.com,5556205584,COMP313
+ID77,Kevin O'Brien,4A,2024-03-15,Y,$1980.00,Record 77 - non-numeric prefix,user77@example.com,5551878777,COMP077
+1214,Anna Kowalski,43B,8/18/2024,0,$3407.45,Clean record 214,user214@company9.com,5556180449,COMP214
+1498,Priya Sharma,41,6/11/2024,No,$4579.51,Clean record 498,user498@company43.com,5551691895,COMP498
+1469,Michael Taylor,24C,2024-02-07,No,$3394.71,Clean record 469,user469@company1.com,5555468801,COMP469
+1079,Fatima Al-Zahra,37A,2024-03-15,Y,N/A,Record 79 - text balance,user79@example.com,5558984321,COMP079
+1334,John Smith,42C,22/5/2024,N,$3576.81,Clean record 334,user334@company33.com,5555900631,COMP334
+1235,Kevin O'Brien,10A,9/2/2024,No,$3553.15,Clean record 235,user235@company9.com,5558446549,COMP235
+1002,Robert Brown,29A,2024-03-15,Y,€992.50,Record 2 - euro currency,user2@example.com,5559255181,COMP002
+1203,Emma Thompson,12A,2024-09-21,Y,$4036.36,Clean record 203,user203@company26.com,5556289936,COMP203
+1306,Lisa Anderson,10A,3/12/2024,Y,$2855.05,Clean record 306,user306@company13.com,5559358272,COMP306
+1059,Mr.   Ahmed Hassan   Jr.,17A,2024-03-15,Y,$1694.00,Record 59 - extra spaces,user59@example.com,5557404825,COMP059
+1381,Robert Brown,35B,17/4/2024,Y,$2317.80,Clean record 381,user381@company41.com,5555250978,COMP381
+1488,James Wilson,49B,12/1/2024,Active,$1462.38,Clean record 488,user488@company31.com,5556303034,COMP488
+1376,Lisa Anderson,40A,5/19/2024,True,$2887.36,Clean record 376,user376@company44.com,5557130424,COMP376
+1308,Fatima Al-Zahra,4,12/1/2024,N,$4819.83,Clean record 308,user308@company25.com,5556350504,COMP308
+1128,John Smith,13A,2024-03-15,Y,,Record 128 - missing balance,user128@example.com,5554473326,COMP128
+1451,Elena Petrov,35A,14/5/2024,Inactive,$2980.69,Clean record 451,user451@company32.com,5551334907,COMP451
+1062,Ahmed Hassan,36A,2024-03-15,Y,"$3,985.92",Record 62 - currency with commas,user62@example.com,5558400846,COMP062
+1385,Sarah Johnson,32A,7/5/2024,True,$4019.80,Clean record 385,user385@company42.com,5552011917,COMP385
+1240,Carlos Rodriguez,26,7/5/2024,Inactive,$1373.48,Clean record 240,user240@company1.com,5555257555,COMP240
+1139,Diego Martinez,1A,2024-03-15,Y,$1726.00,Record 139 - international format,user139@example.com,+1-567-741-1133,COMP139
+1228,Kevin O'Brien,39B,2024-10-06,Y,$1046.04,Clean record 228,user228@company42.com,5553052158,COMP228
+1462,Robert Brown,13B,2024-01-22,Yes,$4596.29,Clean record 462,user462@company16.com,5555285565,COMP462
+1339,Lisa Anderson,36A,2024-09-20,N,$3601.50,Clean record 339,user339@company15.com,5554770087,COMP339
+1403,Kevin O'Brien,29C,9/7/2024,Inactive,$4874.24,Clean record 403,user403@company15.com,5554674200,COMP403
+1373,Priya Sharma,16C,2024-01-07,Inactive,$2019.57,Clean record 373,user373@company16.com,5554558113,COMP373
+,Maria Garcia,7A,2024-03-15,Y,$1120.00,Record 145 - missing ID,user145@example.com,5553196024,COMP145
+1490,Carlos Rodriguez,22,2024-01-01,Active,$2270.59,Clean record 490,user490@company5.com,5559724751,COMP490
+1477,Emma Thompson,14A,2024-10-26,No,$3308.74,Clean record 477,user477@company33.com,5557872563,COMP477
+1375,Yuki Tanaka,43A,2024-10-22,0,$3941.35,Clean record 375,user375@company35.com,5554021358,COMP375
+1070,Diego Martinez,12A,2024-03-15,Y,$717.00,Record 70 - no domain,invalid.email,5559584764,COMP070
+1447,Sofia Andersson,43A,6/4/2024,True,$815.26,Clean record 447,user447@company42.com,5553229773,COMP447
+1456,Sarah Johnson,15,2024-05-22,False,$4773.08,Clean record 456,user456@company46.com,5558771684,COMP456
+1282,Ahmed Hassan,2A,2024-03-14,1,$2344.23,Clean record 282,user282@company15.com,5555446708,COMP282
+1239,Elena Petrov,34C,10/12/2024,Active,$901.84,Clean record 239,user239@company16.com,5551470033,COMP239
+1010,"Kevin O'Brien,",22A,2024-03-15,Y,$1121.00,Record 10 - trailing comma,user10@example.com,5556763132,COMP010
+1338,Ahmed Hassan,10,2024-08-11,True,$1089.72,Clean record 338,user338@company41.com,5555558884,COMP338
+1464,Yuki Tanaka,37A,27/1/2024,1,$2597.52,Clean record 464,user464@company19.com,5556372318,COMP464
+1346,Carlos Rodriguez,34,12/3/2024,N,$2298.75,Clean record 346,user346@company33.com,5555411113,COMP346
+1386,James Wilson,37,12/2/2024,1,$1869.29,Clean record 386,user386@company21.com,5559232743,COMP386
+1471,James Wilson,14C,2024-11-18,0,$3763.24,Clean record 471,user471@company26.com,5551378238,COMP471
+1465,Sarah Johnson,12,2024-09-09,N,$776.56,Clean record 465,user465@company4.com,5557566766,COMP465
+1260,David Chen,46C,2/3/2024,1,$875.62,Clean record 260,user260@company44.com,5557167676,COMP260
+1378,David Chen,44B,25/11/2024,True,$1500.35,Clean record 378,user378@company34.com,5551330823,COMP378
+1264,Robert Brown,5C,20/5/2024,Yes,$4514.60,Clean record 264,user264@company19.com,5553892814,COMP264
+1234,Mohammad Ali,35B,22/11/2024,N,$1619.64,Clean record 234,user234@company48.com,5553117823,COMP234
+1475,David Chen,6,2024-06-17,N,$644.26,Clean record 475,user475@company29.com,5557290641,COMP475
+1132,   ,42A,2024-03-15,Y,$2523.00,Record 132 - whitespace only,user132@example.com,5559320007,COMP132
+1045,Lisa Anderson,24A,2024-03-15,Y,$1993.00,Record 45 - missing email,,5554172233,COMP045
+1108,John Smith,19A,2024-03-15,Y,$635.00,Record 108 - no padding,user108@example.com,5554741237,COMP9
+1392,Elena Petrov,27C,4/24/2024,No,$2402.66,Clean record 392,user392@company9.com,5552791839,COMP392
+1409,Ahmed Hassan,38,2024-11-06,1,$3646.70,Clean record 409,user409@company42.com,5556248220,COMP409
+1355,Maria Garcia,24,2024-11-19,False,$2301.88,Clean record 355,user355@company38.com,5554347264,COMP355
+1293,Kevin O'Brien,50B,22/5/2024,No,$4298.16,Clean record 293,user293@company21.com,5555437166,COMP293
+1219,Sarah Johnson,41C,1/13/2024,Inactive,$3654.20,Clean record 219,user219@company7.com,5555804170,COMP219
+ID199,Robert Brown,38A,2024-03-15,Y,$1205.00,Record 199 - non-numeric prefix,user199@example.com,5559161698,COMP199
+1107,,15A,2024-03-15,Y,$2035.00,Record 107 - empty name,user107@example.com,5559640441,COMP107
+1226,James Wilson,25C,2024-08-04,Y,$2234.68,Clean record 226,user226@company8.com,5556354902,COMP226
+1270,Elena Petrov,34A,9/17/2024,N,$1017.84,Clean record 270,user270@company42.com,5558901643,COMP270
+1157,Maria Garcia,32A,2024-03-15,0,$1813.00,Record 157 - numeric boolean,user157@example.com,5559960068,COMP157
+1024,Mr.   Yuki Tanaka   Jr.,44A,2024-03-15,Y,$1878.00,Record 24 - extra spaces,user24@example.com,5557108895,COMP024
+1026,Maria Garcia,44A,2024-03-15,Y,(185.00),Record 26 - negative in parentheses,user26@example.com,5554206404,COMP026
+1089,   ,38A,2024-03-15,Y,$639.00,Record 89 - whitespace only,user89@example.com,5553764610,COMP089
+ID96,Anna Kowalski,38A,2024-03-15,Y,$631.00,Record 96 - non-numeric prefix,user96@example.com,5557571553,COMP096
+1179,"Fatima Al-Zahra,",44A,2024-03-15,Y,$2310.00,Record 179 - trailing comma,user179@example.com,5555558129,COMP179
+1142,"Elena Petrov,,",27A,2024-03-15,Y,$1112.00,Record 142 - multiple commas,user142@example.com,5557090876,COMP142
+1155,Michael Taylor,37A,2024-03-15,Y,$2620.00,Record 155 - missing @ symbol,user155domain.com,5553890973,COMP155
+1344,Diego Martinez,40C,8/12/2024,False,$3667.47,Clean record 344,user344@company1.com,5555695285,COMP344
+1076,Sofia Andersson,40A,2024/13/01,Y,$936.00,Record 76 - invalid date format,user76@example.com,5555000009,COMP076
+1356,John Smith,20C,2024-04-05,No,$2748.92,Clean record 356,user356@company1.com,5557243023,COMP356
+1310,Kevin O'Brien,18A,12/15/2024,No,$1471.52,Clean record 310,user310@company33.com,5551720556,COMP310
+1311,Michael Taylor,16,3/21/2024,Y,$4611.99,Clean record 311,user311@company5.com,5558383322,COMP311
+1134,Anna Kowalski,20A,2024-03-15,Y,$828.00,Record 134 - dot separated,user134@example.com,384.895.2204,COMP134
+1112,John Smith,33A,2024-03-15,Y,$1122.00,Record 112 - missing username,@domain.com,5556582112,COMP112
+1340,Fatima Al-Zahra,15A,12/28/2024,0,$1800.47,Clean record 340,user340@company49.com,5555380981,COMP340
+1251,Maria Garcia,22A,2024-11-15,Y,$1824.08,Clean record 251,user251@company31.com,5551852948,COMP251
+1348,Anna Kowalski,34A,16/11/2024,Inactive,$591.53,Clean record 348,user348@company37.com,5551880107,COMP348
+1204,John Smith,33,26/12/2024,Inactive,$4037.38,Clean record 204,user204@company44.com,5552952968,COMP204
+1147,Kevin O'Brien,37A,2024-03-15,Y,$938.00,Record 147 - incomplete email,user147@,5555883010,COMP147
+1063,   ,19A,2024-03-15,Y,$2302.00,Record 63 - whitespace only,user63@example.com,5557628059,COMP063
+1434,James Wilson,12,20/7/2024,False,$2228.97,Clean record 434,user434@company21.com,5552189131,COMP434
+1445,Sarah Johnson,39C,24/1/2024,0,$3060.20,Clean record 445,user445@company35.com,5559606154,COMP445
+1022,Sarah Johnson,8A,2024-03-15,Y,,Record 22 - missing balance,user22@example.com,5555909941,COMP022
+1452,Kevin O'Brien,39,5/15/2024,True,$724.30,Clean record 452,user452@company30.com,5552655964,COMP452
+1265,Kevin O'Brien,26A,18/5/2024,Yes,$575.48,Clean record 265,user265@company6.com,5559509879,COMP265
+189A,Fatima Al-Zahra,20A,2024-03-15,Y,$1085.00,Record 189 - non-numeric suffix,user189@example.com,5555920440,COMP189
+1418,Sofia Andersson,32,12/14/2024,1,$4321.48,Clean record 418,user418@company19.com,5554846580,COMP418
+1060,Diego Martinez,46A,2024-03-15,Y,$2614.00,Record 60 - international format,user60@example.com,+1-963-130-6417,COMP060
+1217,Maria Garcia,28A,2024-04-06,N,$2842.94,Clean record 217,user217@company49.com,5553453449,COMP217
+1006,Michael Taylor,35A,2024/13/01,Y,$742.00,Record 6 - invalid date format,user6@example.com,5559837956,COMP006
+1183,Priya Sharma,38A,2024-03-15,Y,$1291.00,Record 183 - missing email,,5555821846,COMP183
+1097,Kevin O'Brien,39A,2024-03-15,Y,£625.41,Record 97 - pound currency,user97@example.com,5552899524,COMP097
+1388,David Chen,38B,2/3/2024,N,$4188.15,Clean record 388,user388@company11.com,5554320573,COMP388
+1401,James Wilson,36A,10/16/2024,N,$2851.08,Clean record 401,user401@company46.com,5551828877,COMP401
+1192,Diego Martinez,2A,2024-03-15,Y,$2914.00,Record 192 - incomplete email,user192@,5558872735,COMP192
+1005,Emma Thompson,32A,2024-03-15,TRUE,$2941.00,Record 5 - caps boolean,user5@example.com,5558579436,COMP005
+1414,Anna Kowalski,16B,2024-05-16,Yes,$4650.63,Clean record 414,user414@company22.com,5558650271,COMP414
+1123,Sarah Johnson,12A,2024-03-15,0,$2998.00,Record 123 - numeric boolean,user123@example.com,5555810953,COMP123
+1268,Emma Thompson,3A,8/4/2024,0,$702.19,Clean record 268,user268@company17.com,5554439053,COMP268
+1259,Maria Garcia,12A,6/21/2024,N,$4493.73,Clean record 259,user259@company35.com,5559312407,COMP259
+1335,Mohammad Ali,3B,2024-07-14,Active,$877.53,Clean record 335,user335@company29.com,5556862354,COMP335
+1275,Kevin O'Brien,31A,2024-12-05,True,$3221.37,Clean record 275,user275@company37.com,5552315404,COMP275
+1069,,32A,2024-03-15,Y,$913.00,Record 69 - empty name,user69@example.com,5559367773,COMP069
+1028,Yuki Tanaka,???,2024-03-15,Y,$2542.00,Record 28 - invalid unit,user28@example.com,5559657433,COMP028
+1238,Carlos Rodriguez,13B,5/12/2024,False,$4457.12,Clean record 238,user238@company9.com,5558199931,COMP238
+1114,Yuki Tanaka,44A,2024-03-15,Y,$1072.00,Record 114 - no padding,user114@example.com,5559199425,COMP82
+1277,Robert Brown,43C,15/4/2024,True,$824.04,Clean record 277,user277@company36.com,5555238109,COMP277
+1206,Sofia Andersson,23B,28/3/2024,1,$832.84,Clean record 206,user206@company32.com,5554101395,COMP206
+1056,"Robert Brown,,",36A,2024-03-15,Y,$579.00,Record 56 - multiple commas,user56@example.com,5552509026,COMP056
+1178,Robert Brown,10A,2024-03-15,Y,669.194,Record 178 - 3 decimal places,user178@example.com,5551335829,COMP178
+1262,Priya Sharma,43B,12/4/2024,N,$1844.83,Clean record 262,user262@company20.com,5555130249,COMP262
+1389,Maria Garcia,39,14/10/2024,0,$4192.43,Clean record 389,user389@company5.com,5551153947,COMP389
+1417,Elena Petrov,39,2024-08-20,Inactive,$4644.40,Clean record 417,user417@company47.com,5552100689,COMP417
+1198,Priya Sharma,5A,2024-03-15,Y,$1972.00,Record 198 - text phone,user198@example.com,not-a-phone,COMP198
+1236,Mohammad Ali,3,5/12/2024,Y,$2634.61,Clean record 236,user236@company29.com,5553521225,COMP236
+1474,Anna Kowalski,50C,20/11/2024,Inactive,$2944.65,Clean record 474,user474@company44.com,5557805525,COMP474
+1463,Anna Kowalski,11,2024-04-17,Inactive,$2243.55,Clean record 463,user463@company32.com,5556899246,COMP463
+1213,Maria Garcia,3B,25/3/2024,False,$3387.84,Clean record 213,user213@company49.com,5553157764,COMP213
+1011,Anna Kowalski,44A,2024-03-15,TRUE,$2443.00,Record 11 - caps boolean,user11@example.com,5551340121,COMP011
+1279,Sarah Johnson,49,2024-08-24,Active,$3975.27,Clean record 279,user279@company4.com,5554586647,COMP279
+1185,Ahmed Hassan,3A,2024-03-15,Y,$748.00,Record 185 - numeric only,user185@example.com,5558442655,71
+1212,John Smith,23B,10/5/2024,False,$536.98,Clean record 212,user212@company19.com,5556223862,COMP212
+1327,Ahmed Hassan,28,2024-09-28,Yes,$4829.60,Clean record 327,user327@company16.com,5553252562,COMP327
+1163,Mohammad Ali,,2024-03-15,Y,$2530.00,Record 163 - empty unit,user163@example.com,5552131262,COMP163
+1188,Priya Sharma,36A,2024/13/01,Y,$2687.00,Record 188 - invalid date format,user188@example.com,5556308507,COMP188
+1205,Mohammad Ali,11,2024-09-15,No,$2610.37,Clean record 205,user205@company15.com,5553136323,COMP205
+1458,John Smith,32C,2024-12-14,Inactive,$1025.67,Clean record 458,user458@company2.com,5557142724,COMP458
+1072,Sofia Andersson,1A,2024-03-15,Y,$1681.00,Record 72 - missing @ symbol,user72domain.com,5557537925,COMP072
+1231,Emma Thompson,40B,2/18/2024,1,$4338.02,Clean record 231,user231@company5.com,5555146124,COMP231
+1087,"Emma Thompson,",48A,2024-03-15,Y,$1256.00,Record 87 - trailing comma,user87@example.com,5559895333,COMP087
+1117,,36A,2024-03-15,Y,$2425.00,Record 117 - empty name,user117@example.com,5552451244,COMP117
+1054,Priya Sharma,8A,2024-03-15,Y,N/A,Record 54 - text balance,user54@example.com,5558652475,COMP054
+1393,Yuki Tanaka,5B,14/8/2024,Y,$3626.50,Clean record 393,user393@company12.com,5554261767,COMP393
+1257,Michael Taylor,9C,12/28/2024,Inactive,$924.15,Clean record 257,user257@company37.com,5552413309,COMP257
+1361,Elena Petrov,25B,24/9/2024,Y,$1191.12,Clean record 361,user361@company17.com,5559719206,COMP361
+1441,Mohammad Ali,32C,20/4/2024,True,$4113.35,Clean record 441,user441@company26.com,5554841095,COMP441
+1104,John Smith,26A,2024-03-15,Y,$1207.00,Record 104 - too short,user104@example.com,123,COMP104
+1349,Maria Garcia,47A,2024-05-28,0,$4903.95,Clean record 349,user349@company15.com,5555288453,COMP349
+1025,Carlos Rodriguez,6A,2024-03-15,Y,$930.00,Record 25 - dot separated,user25@example.com,151.540.4890,COMP025
+1098,Lisa Anderson,40A,2024-03-15,Y,369.729,Record 98 - 3 decimal places,user98@example.com,5555071343,COMP098
+1166,Elena Petrov,34A,2024-03-15,Y,$558.00,Record 166 - missing email,,5556021124,COMP166
+1336,David Chen,43,9/25/2024,False,$865.09,Clean record 336,user336@company19.com,5556664312,COMP336
+1197,Sofia Andersson,9A,2024-03-15,no,$588.00,Record 197 - text boolean,user197@example.com,5554622441,COMP197
+1252,Priya Sharma,8A,28/10/2024,True,$2202.62,Clean record 252,user252@company3.com,5557710916,COMP252
+1280,Maria Garcia,49A,2024-11-24,False,$4741.59,Clean record 280,user280@company37.com,5553002537,COMP280
+1184,Mohammad Ali,,2024-03-15,Y,$913.00,Record 184 - empty unit,user184@example.com,5556913434,COMP184
+1493,James Wilson,47,2024-03-20,True,$4135.19,Clean record 493,user493@company48.com,5559462196,COMP493
+1172,Priya Sharma,6A,2024-03-15,Y,$2757.00,Record 172 - incomplete email,user172@,5554464053,COMP172
+1100,John Smith,8A,2024-03-15,Y,$2503.00,Record 100 - formatted phone,user100@example.com,(928) 565-5180,COMP100
+1384,Ahmed Hassan,24B,2024-04-10,0,$553.00,Clean record 384,user384@company25.com,5554816601,COMP384
+1216,Fatima Al-Zahra,2C,9/10/2024,True,$953.82,Clean record 216,user216@company3.com,5556447513,COMP216
+1497,Sofia Andersson,47,2024-04-24,Yes,$4452.43,Clean record 497,user497@company45.com,5557852228,COMP497
+1304,James Wilson,39C,2024-12-10,Y,$2406.96,Clean record 304,user304@company33.com,5554541998,COMP304
+1331,Yuki Tanaka,21A,2024-02-22,No,$2064.92,Clean record 331,user331@company14.com,5554039214,COMP331
+1432,Kevin O'Brien,5,17/4/2024,N,$4775.03,Clean record 432,user432@company10.com,5552781583,COMP432
+1399,Robert Brown,5A,11/7/2024,N,$3090.04,Clean record 399,user399@company17.com,5555221370,COMP399
+1068,Carlos Rodriguez,36A,2024-03-15,Y,$2173.00,Record 68 - no padding,user68@example.com,5553524868,COMP49
+1319,Sofia Andersson,4,14/10/2024,N,$708.66,Clean record 319,user319@company26.com,5554718483,COMP319
+1324,Emma Thompson,42A,11/25/2024,1,$4099.89,Clean record 324,user324@company31.com,5551052714,COMP324
+1144,Ahmed Hassan,23A,2024-03-15,Y,$1775.00,Record 144 - numeric only,user144@example.com,5558223828,67
+1342,Carlos Rodriguez,14C,2024-10-07,No,$2830.79,Clean record 342,user342@company10.com,5556169903,COMP342
+1106,James Wilson,Unit #8,2024-03-15,Y,$850.00,Record 106 - unit with symbols,user106@example.com,5558489077,COMP106
+1425,Yuki Tanaka,41C,5/22/2024,No,$2060.48,Clean record 425,user425@company1.com,5556618268,COMP425
+1247,Michael Taylor,26,25/2/2024,N,$780.15,Clean record 247,user247@company9.com,5558655908,COMP247
+1066,Emma Thompson,30A,2024-03-15,Y,$2739.00,Record 66 - caps email,USER66@DOMAIN.COM,5553728850,COMP066
+1407,Sarah Johnson,34A,25/8/2024,N,$2035.44,Clean record 407,user407@company20.com,5558512713,COMP407
+1416,Emma Thompson,41A,2024-09-03,Inactive,$4962.08,Clean record 416,user416@company43.com,5558597842,COMP416
+1174,Elena Petrov,49A,2024-03-15,Y,$2969.00,Record 174 - no padding,user174@example.com,5554543747,COMP99
+1274,Robert Brown,43B,7/27/2024,True,$1974.92,Clean record 274,user274@company20.com,5554430244,COMP274
+1083,Sarah Johnson,Building-1-Apt-16,2024-03-15,Y,$1515.00,Record 83 - complex unit,user83@example.com,5553517633,COMP083
+1165,Ahmed Hassan,6A,2024-03-15,Y,"$3,334.20",Record 165 - currency with commas,user165@example.com,5554664048,COMP165
+1363,Priya Sharma,14A,2024-06-18,Active,$1690.08,Clean record 363,user363@company2.com,5557563674,COMP363
+1122,Emma Thompson,45A,2024/13/01,Y,$2225.00,Record 122 - invalid date format,user122@example.com,5559782488,COMP122
+1023,Mohammad Ali,39A,,Y,$1829.00,Record 23 - missing date,user23@example.com,5558455250,COMP023
+1065,Anna Kowalski,28A,2024-03-15,TRUE,$848.00,Record 65 - caps boolean,user65@example.com,5558944158,COMP065
+1404,Robert Brown,47,15/3/2024,Yes,$942.50,Clean record 404,user404@company43.com,5551004492,COMP404
+1354,Anna Kowalski,2B,2024-09-22,Inactive,$727.87,Clean record 354,user354@company15.com,5558928148,COMP354
+1047,Mohammad Ali,41A,2024-03-15,Y,$2715.00,Record 47 - dot separated,user47@example.com,669.238.8522,COMP047
+1227,Anna Kowalski,41A,9/8/2024,False,$3124.00,Clean record 227,user227@company11.com,5551534256,COMP227
+1273,Sofia Andersson,20B,6/23/2024,Yes,$3955.23,Clean record 273,user273@company14.com,5552973794,COMP273
+118A,Lisa Anderson,47A,2024-03-15,Y,$2961.00,Record 118 - non-numeric suffix,user118@example.com,5551737763,COMP118
+1064,Michael Taylor,18A,2024-13-01,Y,$1845.00,Record 64 - invalid month,user64@example.com,5552112168,COMP064
+1487,Elena Petrov,32A,7/7/2024,1,$4818.66,Clean record 487,user487@company49.com,5552409240,COMP487
+1357,Kevin O'Brien,29C,21/3/2024,1,$2195.33,Clean record 357,user357@company11.com,5557860831,COMP357
+1301,Carlos Rodriguez,28C,2024-02-13,No,$2329.01,Clean record 301,user301@company40.com,5555889635,COMP301
+1220,John Smith,49C,20/8/2024,Yes,$4091.71,Clean record 220,user220@company42.com,5554337423,COMP220
+1241,Anna Kowalski,3C,10/12/2024,0,$3187.04,Clean record 241,user241@company47.com,5552331011,COMP241
+1146,John Smith,24A,2024-03-15,Y,$2197.00,Record 146 - formatted phone,user146@example.com,(953) 648-7090,COMP146
+1460,Maria Garcia,28,3/10/2024,0,$3743.90,Clean record 460,user460@company2.com,5558062787,COMP460
+1222,Priya Sharma,19B,4/11/2024,True,$4664.94,Clean record 222,user222@company47.com,5557023105,COMP222
+,Mohammad Ali,28A,2024-03-15,Y,$2446.00,Record 182 - missing ID,user182@example.com,5551610152,COMP182
+1001,   ,43A,2024-03-15,Y,$1354.00,Record 1 - whitespace only,user1@example.com,5557496885,COMP001
+1038,Maria Garcia,47A,2024-03-15,yes,$1133.00,Record 38 - text boolean,user38@example.com,5559587652,COMP038
+1095,Michael Taylor,14A,6/11/24,Y,$2493.00,Record 95 - short year,user95@example.com,5553798672,COMP095
+1364,Emma Thompson,2,10/5/2024,Inactive,$1215.15,Clean record 364,user364@company45.com,5559310035,COMP364
+1168,Carlos Rodriguez,43A,2024-03-15,FALSE,$1808.00,Record 168 - caps boolean,user168@example.com,5554413895,COMP168
+1439,Ahmed Hassan,38A,13/4/2024,0,$4879.52,Clean record 439,user439@company34.com,5556984620,COMP439
+1088,Maria Garcia,34A,2024/13/01,Y,$2294.00,Record 88 - invalid date format,user88@example.com,5555455079,COMP088
+1440,Ahmed Hassan,36A,2024-05-15,0,$2802.84,Clean record 440,user440@company31.com,5553124514,COMP440
+1180,Priya Sharma,26A,2024-03-15,Y,$1550.00,Record 180 - missing @ symbol,user180domain.com,5551710371,COMP180
+1398,Yuki Tanaka,37,2024-04-15,False,$1124.94,Clean record 398,user398@company27.com,5552122087,COMP398
+1092,Maria Garcia,7A,2024-03-15,Y,$1394.00,Record 92 - too short,user92@example.com,123,COMP092
+1351,Ahmed Hassan,23,10/2/2024,1,$3259.97,Clean record 351,user351@company49.com,5558452142,COMP351
+1245,Sofia Andersson,11B,2024-05-15,Inactive,$1353.98,Clean record 245,user245@company32.com,5551114130,COMP245
+1430,Mohammad Ali,2C,7/8/2024,No,$1947.58,Clean record 430,user430@company1.com,5552501894,COMP430
+1261,Anna Kowalski,35A,2024-07-19,Y,$3755.34,Clean record 261,user261@company47.com,5552625363,COMP261
+1429,Sarah Johnson,39A,11/14/2024,1,$2300.04,Clean record 429,user429@company24.com,5554151598,COMP429
+1287,James Wilson,5,26/3/2024,No,$2162.91,Clean record 287,user287@company46.com,5556619390,COMP287
+1428,James Wilson,26A,2024-08-24,Y,$2332.70,Clean record 428,user428@company24.com,5556692599,COMP428
+1121,Emma Thompson,48A,2024-03-15,Y,(742.00),Record 121 - negative in parentheses,user121@example.com,5553535058,COMP121
+1272,Fatima Al-Zahra,13B,11/17/2024,1,$3312.94,Clean record 272,user272@company50.com,5551754301,COMP272
+1337,Emma Thompson,3B,5/20/2024,N,$4999.69,Clean record 337,user337@company1.com,5554217538,COMP337
+1086,Lisa Anderson,30A,2024-03-15,Y,N/A,Record 86 - text balance,user86@example.com,5557314831,COMP086
+1480,Michael Taylor,29A,1/18/2024,Y,$1457.35,Clean record 480,user480@company12.com,5553078056,COMP480
+1021,Sofia Andersson,44A,2024-03-15,Y,,Record 21 - missing balance,user21@example.com,5552866005,COMP021
+1029,Lisa Anderson,20A,2024-03-15,?,$1663.00,Record 29 - invalid boolean,user29@example.com,5559499800,COMP029
+1039,Sarah Johnson,21A,2024-03-15,Y,$755.00,Record 39 - incomplete email,user39@,5555000006,COMP039
+1181,Priya Sharma,27A,2024-03-15,Y,$2940.00,Record 181 - dot separated,user181@example.com,641.863.7235,COMP181
+1405,Maria Garcia,29C,9/14/2024,No,$2373.61,Clean record 405,user405@company33.com,5558936775,COMP405
+1297,Diego Martinez,34B,12/4/2024,False,$1943.73,Clean record 297,user297@company36.com,5559301372,COMP297
+1151,John Smith,22A,2024-03-15,Y,$2697.00,Record 151 - numeric only,user151@example.com,5559432268,52
+1326,Emma Thompson,15,2024-12-18,Yes,$962.28,Clean record 326,user326@company38.com,5551630562,COMP326
+1473,Michael Taylor,16,10/12/2024,N,$1904.83,Clean record 473,user473@company24.com,5554359881,COMP473
+1223,Sarah Johnson,35,17/7/2024,1,$3660.04,Clean record 223,user223@company17.com,5558234315,COMP223
+1148,Robert Brown,24A,2024-03-15,Y,$1578.00,Record 148 - missing email,,5559120743,COMP148
+1426,Sofia Andersson,6A,2024-10-13,Inactive,$2494.09,Clean record 426,user426@company36.com,5557778584,COMP426
+1296,Sofia Andersson,15C,2024-02-11,Yes,$4922.59,Clean record 296,user296@company34.com,5554610520,COMP296
+1420,Ahmed Hassan,11A,5/12/2024,1,$4374.71,Clean record 420,user420@company20.com,5552390322,COMP420
+1013,Kevin O'Brien,35A,2024-02-32,Y,$1318.00,Record 13 - invalid day,user13@example.com,5559716763,COMP013
+1396,James Wilson,38,5/15/2024,True,$3544.53,Clean record 396,user396@company49.com,5554560327,COMP396
+1408,John Smith,1A,12/3/2024,Yes,$926.41,Clean record 408,user408@company31.com,5556017802,COMP408
+1242,Carlos Rodriguez,31A,8/1/2024,False,$4468.71,Clean record 242,user242@company35.com,5555562140,COMP242
+1101,Elena Petrov,30A,2024-03-15,Y,$535.00,Record 101 - numeric only,user101@example.com,5556647926,18
+1202,Ahmed Hassan,47,11/7/2024,Y,$2422.51,Clean record 202,user202@company22.com,5552415255,COMP202
+1084,,3A,2024-03-15,Y,$1484.00,Record 84 - empty name,user84@example.com,5555494647,COMP084
+1167,James Wilson,20A,5/12/24,Y,$2831.00,Record 167 - short year,user167@example.com,5559304122,COMP167
+1341,James Wilson,33,2024-11-08,Active,$4131.17,Clean record 341,user341@company38.com,5559625495,COMP341
+1221,Sofia Andersson,28,2024-12-05,Y,$2886.09,Clean record 221,user221@company34.com,5552584523,COMP221
+1033,Yuki Tanaka,32A,2024-03-15,,$2253.00,Record 33 - missing boolean,user33@example.com,5553022058,COMP033
+1138,Mohammad Ali,44A,2024-03-15,Y,$2596.00,Record 138 - missing phone,user138@example.com,,COMP138
+1322,Anna Kowalski,50A,11/1/2024,Y,$634.28,Clean record 322,user322@company11.com,5553378698,COMP322
+1052,Sarah Johnson,27A,2024-03-15,Y,$506.00,Record 52 - missing company_id,user52@example.com,5554684939,
+1190,James Wilson,48A,2024-03-15,Y,N/A,Record 190 - text balance,user190@example.com,5559818776,COMP190
+1126,"Maria Garcia,,",16A,2024-03-15,Y,$1537.00,Record 126 - multiple commas,user126@example.com,5558742127,COMP126
+1246,Ahmed Hassan,22C,14/3/2024,No,$1080.23,Clean record 246,user246@company45.com,5551952003,COMP246
+1350,Ahmed Hassan,44B,2024-03-01,N,$1292.89,Clean record 350,user350@company1.com,5559114290,COMP350
+1472,David Chen,24C,2024-05-27,0,$2202.22,Clean record 472,user472@company16.com,5552349328,COMP472
+1406,Michael Taylor,14B,20/11/2024,1,$4586.39,Clean record 406,user406@company40.com,5557153912,COMP406
+1359,Kevin O'Brien,4B,2024-12-24,Active,$3847.88,Clean record 359,user359@company25.com,5558308447,COMP359
+1057,Diego Martinez,26A,2024-03-15,Y,$2462.00,Record 57 - numeric only,user57@example.com,5553290175,41
+1446,Priya Sharma,38A,9/27/2024,Inactive,$4563.59,Clean record 446,user446@company15.com,5554860389,COMP446
+1413,Ahmed Hassan,13,11/11/2024,Yes,$1944.86,Clean record 413,user413@company15.com,5551863505,COMP413
+1187,Anna Kowalski,32A,2024-03-15,Y,,Record 187 - missing balance,user187@example.com,5555471543,COMP187
+1173,James Wilson,12A,2024-03-15,Y,$1694.00,Record 173 - formatted phone,user173@example.com,(377) 126-1491,COMP173
+1369,Michael Taylor,13B,2024-05-02,Y,$3465.68,Clean record 369,user369@company4.com,5554295281,COMP369
+1323,Sofia Andersson,22B,2024-12-12,1,$1813.01,Clean record 323,user323@company34.com,5551639885,COMP323
+1435,Mohammad Ali,10,7/27/2024,False,$3342.09,Clean record 435,user435@company43.com,5552334120,COMP435
+1043,Robert Brown,37A,2024-03-15,Y,$2851.00,Record 43 - missing email,,5553533821,COMP043
+,Lisa Anderson,49A,2024-03-15,Y,$938.00,Record 55 - missing ID,user55@example.com,5552540377,COMP055
+1494,Ahmed Hassan,9C,2024-02-06,Active,$2712.78,Clean record 494,user494@company4.com,5555938743,COMP494
+ID85,David Chen,50A,2024-03-15,Y,$2973.00,Record 85 - non-numeric prefix,user85@example.com,5555124300,COMP085
+1081,"Carlos Rodriguez,",4A,2024-03-15,Y,$2922.00,Record 81 - trailing comma,user81@example.com,5555457090,COMP081
+1436,Lisa Anderson,39B,1/25/2024,Inactive,$3824.54,Clean record 436,user436@company8.com,5552106194,COMP436
+1380,Sarah Johnson,49,2024-05-08,False,$3359.67,Clean record 380,user380@company16.com,5554658882,COMP380
+1249,Sarah Johnson,26C,8/5/2024,Yes,$2970.95,Clean record 249,user249@company8.com,5554935966,COMP249
+1035,Carlos Rodriguez,50A,2024-03-15,Y,"$4,618.85",Record 35 - currency with commas,user35@example.com,5551210486,COMP035
+1082,John Smith,13A,2024-03-15,Y,,Record 82 - missing balance,user82@example.com,5554567810,COMP082
+1402,David Chen,43,6/1/2024,True,$948.59,Clean record 402,user402@company26.com,5556786480,COMP402
+1468,Lisa Anderson,22,2024-11-12,0,$3275.40,Clean record 468,user468@company26.com,5556945817,COMP468
+1049,Carlos Rodriguez,41A,2024-03-15,Y,N/A,Record 49 - text balance,user49@example.com,5551603269,COMP049
+1457,John Smith,38,11/28/2024,No,$4030.48,Clean record 457,user457@company30.com,5553801463,COMP457
+1374,Michael Taylor,49B,2024-12-05,Inactive,$3789.07,Clean record 374,user374@company9.com,5559294494,COMP374
+1276,Michael Taylor,14C,2024-09-08,Yes,$4685.66,Clean record 276,user276@company37.com,5551422299,COMP276
+1003,James Wilson,11A,2024-03-15,Y,$2450.00,Record 3 - too short,user3@example.com,123,COMP003
+1105,,48A,2024-03-15,Y,$683.00,Record 105 - empty name,user105@example.com,5557003621,COMP105
+1041,Kevin O'Brien,15A,2024-03-15,Y,$2618.00,Record 41 - incomplete email,user41@,5556560784,COMP041
+1422,David Chen,9,4/9/2024,No,$2813.91,Clean record 422,user422@company25.com,5553044647,COMP422
+1019,James Wilson,13A,not a date,Y,$1421.00,Record 19 - text date,user19@example.com,5554177213,COMP019
+1004,Yuki Tanaka,44A,2024-03-15,Y,3k,Record 4 - k notation,user4@example.com,5555396104,COMP004
+1171,John Smith,19A,2024-03-15,Y,$2344.00,Record 171 - formatted phone,user171@example.com,(660) 912-2962,COMP171
+1305,John Smith,30B,14/10/2024,Y,$726.85,Clean record 305,user305@company23.com,5551203162,COMP305
+1330,Yuki Tanaka,20C,5/4/2024,1,$1312.61,Clean record 330,user330@company32.com,5556804727,COMP330
+1284,Anna Kowalski,25B,2024-10-05,Yes,$560.71,Clean record 284,user284@company29.com,5557537140,COMP284
+1333,Robert Brown,33B,19/10/2024,Inactive,$1279.00,Clean record 333,user333@company39.com,5558701315,COMP333
+1012,Yuki Tanaka,12A,2024-03-15,Y,$1364.00,Record 12 - text phone,user12@example.com,not-a-phone,COMP012
+1160,Kevin O'Brien,25A,2024-03-15,Y,$2977.00,Record 160 - text phone,user160@example.com,not-a-phone,COMP160
+1050,Mr.   Priya Sharma   Jr.,38A,2024-03-15,Y,$2682.00,Record 50 - extra spaces,user50@example.com,5556612838,COMP050
+1286,David Chen,7,2024-03-22,Y,$2446.70,Clean record 286,user286@company47.com,5556441633,COMP286
+1492,Anna Kowalski,15C,7/5/2024,True,$3551.32,Clean record 492,user492@company44.com,5551803662,COMP492
+1224,Diego Martinez,15C,1/22/2024,0,$2835.67,Clean record 224,user224@company37.com,5555282247,COMP224
+1193,Michael Taylor,11A,8/2/24,Y,$2941.00,Record 193 - short year,user193@example.com,5556459181,COMP193
+1135,,13A,2024-03-15,Y,$563.00,Record 135 - empty name,user135@example.com,5556365602,COMP135
+1499,Sofia Andersson,34B,8/12/2024,0,$4592.66,Clean record 499,user499@company34.com,5555553879,COMP499
+1233,Sofia Andersson,46C,7/22/2024,Yes,$860.62,Clean record 233,user233@company42.com,5558306629,COMP233
+1500,Maria Garcia,24A,2024-06-04,N,$1560.97,Clean record 500,user500@company41.com,5553746633,COMP500
+1159,Carlos Rodriguez,10A,2024-03-15,Y,£708.46,Record 159 - pound currency,user159@example.com,5553068096,COMP159
+1149,Ahmed Hassan,16A,2024-03-15,Y,$1116.00,Record 149 - missing phone,user149@example.com,,COMP149
+1371,David Chen,26A,2024-12-20,True,$843.00,Clean record 371,user371@company37.com,5559392108,COMP371
+1036,Yuki Tanaka,12A,2024-03-15,FALSE,$2034.00,Record 36 - caps boolean,user36@example.com,5559175251,COMP036
+1161,John Smith,41A,2024-03-15,1,$2117.00,Record 161 - numeric boolean,user161@example.com,5555913629,COMP161
+1454,Sofia Andersson,26A,2024-04-03,True,$2697.89,Clean record 454,user454@company15.com,5558759618,COMP454
+1292,John Smith,17A,22/12/2024,1,$3439.96,Clean record 292,user292@company1.com,5551277850,COMP292
+1309,Emma Thompson,40,2024-08-19,No,$3929.75,Clean record 309,user309@company44.com,5559074716,COMP309
+1368,Kevin O'Brien,15A,25/10/2024,N,$3504.16,Clean record 368,user368@company33.com,5557829794,COMP368
+1124,,22A,2024-03-15,Y,$853.00,Record 124 - empty name,user124@example.com,5552625047,COMP124
+,Anna Kowalski,45A,2024-03-15,Y,$928.00,Record 109 - missing ID,user109@example.com,5551625252,COMP109
+1300,Kevin O'Brien,23,12/1/2024,Active,$1046.11,Clean record 300,user300@company4.com,5553759446,COMP300
+1360,Diego Martinez,25,14/6/2024,1,$2822.06,Clean record 360,user360@company39.com,5559106494,COMP360
+1230,Ahmed Hassan,13B,22/10/2024,Active,$3204.47,Clean record 230,user230@company18.com,5553875309,COMP230
+1433,Fatima Al-Zahra,13A,10/13/2024,False,$1823.68,Clean record 433,user433@company12.com,5552716101,COMP433
+1415,Carlos Rodriguez,33,4/6/2024,Active,$4618.61,Clean record 415,user415@company27.com,5557961722,COMP415
+1131,Sarah Johnson,16A,2024-03-15,Y,€1098.17,Record 131 - euro currency,user131@example.com,5555471531,COMP131
+1317,Fatima Al-Zahra,22,18/7/2024,Y,$2027.17,Clean record 317,user317@company29.com,5559382754,COMP317
+1164,Anna Kowalski,Building-43-Apt-11,2024-03-15,Y,$2419.00,Record 164 - complex unit,user164@example.com,5559627086,COMP164
+1294,Maria Garcia,39B,2024-10-18,True,$3096.94,Clean record 294,user294@company24.com,5558159729,COMP294
+1450,Elena Petrov,36B,20/2/2024,Inactive,$1695.26,Clean record 450,user450@company12.com,5555483807,COMP450
+1303,Carlos Rodriguez,22,2024-02-14,Y,$3217.54,Clean record 303,user303@company36.com,5557493800,COMP303
+1316,Sofia Andersson,43B,3/16/2024,True,$1617.03,Clean record 316,user316@company20.com,5559620179,COMP316
+1484,Sarah Johnson,14B,2/1/2024,0,$1803.15,Clean record 484,user484@company33.com,5556018558,COMP484
+1027,Maria Garcia,30A,2024-03-15,Y,$1881.00,Record 27 - missing username,@domain.com,5552897037,COMP027
+1332,Fatima Al-Zahra,27B,7/9/2024,Active,$1058.90,Clean record 332,user332@company35.com,5553268931,COMP332
+1347,Emma Thompson,33C,2024-03-20,1,$3839.04,Clean record 347,user347@company15.com,5553124243,COMP347
+1020,,15A,2024-03-15,Y,$1531.00,Record 20 - empty name,user20@example.com,5551693606,COMP020
+1256,Lisa Anderson,50,2024-12-17,N,$1112.03,Clean record 256,user256@company36.com,5555055919,COMP256

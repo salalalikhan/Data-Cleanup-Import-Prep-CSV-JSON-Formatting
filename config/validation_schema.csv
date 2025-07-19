@@ -1,0 +1,5 @@
+field_name,data_type,required,min_length,max_length,validation_type
+record_id,string,true,1,20,alphanumeric
+email,string,false,5,100,email
+phone,string,false,10,20,phone
+balance_cents,integer,true,,,currency
